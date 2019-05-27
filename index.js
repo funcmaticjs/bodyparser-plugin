@@ -1,1 +1,1 @@
-module.exports = require('./lib/mongodb.js')
+module.exports = require('./lib/parser.js')
