@@ -1,0 +1,28 @@
+{
+  "name": "@funcmaticjs/bodyparser-plugin",
+  "version": "0.0.1",
+  "description": "Funcmatic plugin that parses common types of event.body content (e.g. application/json, application/x-www-form-urlencoded, multipart/form-data)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/bodyparser-plugin.git"
+  },
+  "dependencies": {
+    "content-type": "^1.0.4",
+    "http-errors": "^1.7.2",
+    "parse-multipart": "^1.0.4",
+    "qs": "^6.7.0"
+  },
+  "devDependencies": {
+    "@funcmaticjs/funcmatic": "0.0.1",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
